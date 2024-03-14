@@ -8,7 +8,7 @@ If you don't know, scraping infos is about getting informations of a web site co
 
 ## Installation
 
-Attention !! Windows Defender don't like Getlinks.js file. Take care you can install it with defender on, else, turn it of
+Attention !! Windows Defender don't like Getlinks.js file. Take care you can install it with defender on, else, turn it off
 
 We recomend you to have vs code installed on your computer (https://code.visualstudio.com).
 
