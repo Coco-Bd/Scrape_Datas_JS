@@ -70,13 +70,13 @@ Enzo - Discord : Enzo - enzo.martinez@ynov.com
 ## Pictures of final version
 
 Page
-![imghang.png](assets/readme_img/Indexpage.png)
+![html page](imgReadme/web.png)
 
 Api
-![imghang.png](assets/readme_img/Rulespage.png)
+![API json](imgReadme/API.png)
 
 Imdb
-![imghang.png](assets/readme_img/Gamepage.png)
+![IMDB adventure page](imgReadme/IMDB.png)
 
 [^1]: @rodove-tv Thanks for your help
 [^2]: Team colaborators @ElCabrii @nvtnicolas @QuentinDrgn :shipit:
