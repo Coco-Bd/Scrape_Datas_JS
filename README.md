@@ -8,6 +8,8 @@ If you don't know, scraping infos is about getting informations of a web site co
 
 ## Installation
 
+Attention !! Windows Defender don't like Getlinks.js file. Take care you can install it with defender on, else, turn it of
+
 We recomend you to have vs code installed on your computer (https://code.visualstudio.com).
 
 After installing vs code, install Node.js from web browser to be able to update API, and add extension Live Server on your IDE, You'll need it to launch the web page.
@@ -67,6 +69,9 @@ This was coded by Corentin Bedo and Enzo Martinez !
 Coco - Discord : Cooco - corentin.bedo@ynov.com
 Enzo - Discord : Enzo - enzo.martinez@ynov.com
 
+@rodove-tv Thanks for your help
+Team colaborators @ElCabrii @nvtnicolas @QuentinDrgn :shipit:
+
 ## Pictures of final version
 
 Page
@@ -77,6 +82,3 @@ Api
 
 Imdb
 ![IMDB adventure page](imgReadme/IMDB.png)
-
-[^1]: @rodove-tv Thanks for your help
-[^2]: Team colaborators @ElCabrii @nvtnicolas @QuentinDrgn :shipit:
