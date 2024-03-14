@@ -40,7 +40,7 @@ If you face some problems, i have some fixes for you
 If your error is about chrome, run this `npx puppeteer browsers install chrome`
 If the error didn't disapear, you may try to uncomment the following comment
 
-[!imgfix.png](imgReadme/code.png)
+![imgfix.png](imgReadme/code.png)
 
 If you're on MacOS, replace the link between the quotes with this one :
 
