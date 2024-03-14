@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>scraping</title>
+  </head>
+  <body>
+    <div id="moviesList"></div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const moviesListElement = document.getElementById("moviesList");
+
+        fetch("/API/data/movies.json")
+          .then((response) => response.json())
+          .then((data) => {
+            data.forEach((movie) => {
+              const movieElement = document.createElement("div");
+              movieElement.innerHTML = `
+                <style>
+                    body {background-color: grey;}
+                    h2   {color: #bee3ba;}
+                    p    {color: black;}
+                </style>
+                        <h2>${movie.Order}  ${movie.Title}</h2>
+                        <p>Année: ${movie.Year}</p>
+                        <p>Durée: ${movie.Duration}</p>
+                        <p>Réalisateur: ${movie.Real}</p>
+                        <p>Acteurs: ${movie.Actors}</p>
+                        <p>Classement: ${movie.IMDBclassement}</p>
+                        <p>Synopsis: ${movie.Synop}</p>
+                        <hr>
+                        `;
+              moviesListElement.appendChild(movieElement);
+            });
+          })
+          .catch((error) => {
+            console.error(
+              "Erreur lors de la récupération des données :",
+              error
+            );
+          });
+      });
+    </script>
+  </body>
+</html>
